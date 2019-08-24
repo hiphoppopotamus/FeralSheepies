@@ -7,12 +7,23 @@
   height: 400px;
 }
 
-/* Top left text */
 .address-title {
   position: absolute;
-  top: 100px;
-  left: 16px;
+  top: 130px;
+  left: 60px;
 }
+
+.blurb {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+/*.blurb h1 {
+	
+}
+
+.blurb p {
+	
+}*/
 
 #house-img {
 	object-fit: cover;
