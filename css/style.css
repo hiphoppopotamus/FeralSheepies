@@ -1,0 +1,21 @@
+
+
+.logo p {
+	color: white;
+}
+
+.searchBar {
+	width: 45%;
+	margin: 0 auto;
+}
+
+.form-control {
+	border-radius: 25px;
+	background: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png") top left     no-repeat;
+height:30px;
+padding-left:25px;   
+}
+
+.footerRow {
+	padding: 25px;
+}
