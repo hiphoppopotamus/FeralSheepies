@@ -1,5 +1,18 @@
 
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+	font-size: 3.5rem;
+  }
+}
 .logo p {
 	color: white;
 }
@@ -13,9 +26,20 @@
 	border-radius: 25px;
 	background: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png") top left     no-repeat;
 height:30px;
-padding-left:25px;   
+padding-left:25px;
 }
 
 .footerRow {
 	padding: 25px;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+}
+.PropertyImage {
+  height: 300px;
 }
