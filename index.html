@@ -8,25 +8,22 @@
     <meta name="generator" content="Jekyll v3.8.5">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
     <title>Feral sheep team housuing problem</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
-
-    <!-- Bootstrap core CSS -->
-    <!-- Custom styles for this template -->
-    <link href="album.css" rel="stylesheet">
   </head>
   <body>
     <header>
 
-      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-        <h5 class="my-0 mr-md-auto font-weight-normal">Logo</h5>
+      <div class="navigationBar d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+        <h5 class="my-0 mr-md-auto font-weight-normal"></h5>
         <nav class="my-2 my-md-0 mr-md-3">
-          <a class="p-2 text-dark" href="#">HOME</a>
-          <a class="p-2 text-dark" href="#">ABOUT US</a>
-          <a class="p-2 text-dark" href="#">CONTACT US</a>
+          <a class="p-2 text-dark" href="./index.html">HOME</a>
+          <a class="p-2 text-dark" href="./aboutUs.html">ABOUT US</a>
+          <a class="p-2 text-dark" href="./contact.html">CONTACT US</a>
 
         </nav>
 
@@ -35,52 +32,53 @@
 
 <main role="main">
 
-  <section class="jumbotron text-center">
-    <div class="container">
-        <h1 class="jumbotron-heading">TEAM FERAL SHEEP</h1>
-        <p class="lead text-muted">Property reviews by tenants for tenants.</p>
-        <form class="form-inline active-cyan-4 searchBar">
-          <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Address" aria-label="Search">
-          <i class="fa fa-search" aria-hidden="true"></i>
-        </form>
+  <section class="blurb jumbotron text-center">
+    <div class="topWrapper container">
+        <div class="logoSection">
+            <img src="image/logo.png" alt="">
+
+        </div>
+        <div class="searchArea">
+            <p class="promo lead text-muted">property reviews by tenants for tenants.</p>
+            <form class="form-inline active-cyan-4 searchBar">
+              <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Address" aria-label="Search">
+              <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+            </form>
+        </div>
+
+
     </div>
   </section>
 
   <div class="album py-5 bg-light">
     <div class="container">
-
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-
-
             <div class="PropertyImage">
               <a target="_blank" href="img_forest.jpg">
                 <img src="hausu.jpg" alt="Hausu">
               </a>
             </div>
-
-
-
             <div class="card-body">
               <p class="Property">Property 1</p>
-              <p class="Address">Address</p>
-              <!--Chuck inside css folder to make it neat-->
-
-              <!-- Add icon library -->
-              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+              <p class="Address">14 Hudson st, Island Bay</p>
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
-              <!--Chuck inside css folder to make it neat-->
-
               <br></br>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="More details">More Details</button>
+
+                    <a href="./reviewPage.html">
+                        <button>
+                            More Details
+                        </button>
+                    </a>
+
                 </div>
               </div>
             </div>
@@ -88,18 +86,18 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="PropertyImage">
+                <a target="_blank" href="img_forest.jpg">
+                  <img src="image/damp.jpg" alt="Hausu">
+                </a>
+              </div>
             <div class="card-body">
               <p class="Property">Property 2</p>
-              <p class="Address">Address</p>
+              <p class="Address">29 Essex st, Aro Valley</p>
 
 
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <!--Chuck inside css folder to make it neat-->
 
@@ -108,34 +106,33 @@
                 <div class="btn-group">
                   <button type="button" class="More details">More Details</button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="PropertyImage">
+                <a target="_blank" href="img_forest.jpg">
+                  <img src="image/house4.jpg" alt="Hausu">
+                </a>
+              </div>
             <div class="card-body">
               <p class="Property">Property 3</p>
-              <p class="Address">Address</p>
+              <p class="Address">131Haldane Street, Matokitoki</p>
 
               <!-- Add icon library -->
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
 
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <!--Chuck inside css folder to make it neat-->
 
               <br></br>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="More details">More Details</button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -143,81 +140,83 @@
 
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="PropertyImage">
+                <a target="_blank" href="img_forest.jpg">
+                  <img src="image/house5.jpg" alt="Hausu">
+                </a>
+              </div>
             <div class="card-body">
-              <p class="Property">Property 1</p>
+              <p class="Property">259 Birch Avenue, Motiti Island</p>
               <p class="Address">Address</p>
 
               <!-- Add icon library -->
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
 
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <!--Chuck inside css folder to make it neat-->
-
+              <br></br>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="More details">More Details</button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="PropertyImage">
+                <a target="_blank" href="img_forest.jpg">
+                  <img src="image/house6.jpg" alt="Hausu">
+                </a>
+              </div>
             <div class="card-body">
-              <p class="Property">Property 1</p>
+              <p class="Property">Property 5</p>
               <p class="Address">Address</p>
 
               <!-- Add icon library -->
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
-              <!--Chuck inside css folder to make it neat-->
-
+              <br></br>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="More details">More Details</button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="PropertyImage">
+                <a target="_blank" href="img_forest.jpg">
+                  <img src="image/house7.jpg" alt="Hausu">
+                </a>
+              </div>
             <div class="card-body">
-              <p class="Property">Property 1</p>
+              <p class="Property">Property 6</p>
               <p class="Address">Address</p>
 
               <!-- Add icon library -->
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
-              <!--Chuck inside css folder to make it neat-->
-
+              <br></br>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="More details">More Details</button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -225,88 +224,95 @@
 
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="PropertyImage">
+                <a target="_blank" href="img_forest.jpg">
+                  <img src="image/house8.jpg" alt="Hausu">
+                </a>
+              </div>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="Property">Property 7</p>
+              <p class="Address">Address</p>
 
               <!-- Add icon library -->
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
-              <!--Chuck inside css folder to make it neat-->
-
+              <br></br>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="More details">More Details</button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="PropertyImage">
+                <a target="_blank" href="img_forest.jpg">
+                  <img src="image/house3.jpg" alt="Hausu">
+                </a>
+              </div>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="Property">Property 8</p>
+              <p class="Address">Address</p>
 
               <!-- Add icon library -->
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
-              <!--Chuck inside css folder to make it neat-->
-
+              <br></br>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="More details">More Details</button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+              <div class="PropertyImage">
+                <a target="_blank" href="img_forest.jpg">
+                  <img src="image/house3.jpg" alt="Hausu">
+                </a>
+              </div>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
+              <p class="Property">Property 9</p>
+              <p class="Address">Address</p>
 
               <!-- Add icon library -->
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
-              <!--Chuck inside css folder to make it neat-->
-
+              <br></br>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="More details">More Details</button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
-      </div>
+
     </div>
-  </div>
+    </div>
+    </div>
 
 </main>
+
+</body>
 
 <!-- Footer -->
 <footer class="page-footer font-small blue pt-4">
@@ -318,33 +324,28 @@
         <div class="col-sm">
 
           <!-- Links -->
-          <h5 class="text-uppercase">Quick Links</h5>
+        <h5 class="text-uppercase">Quick Links</h5>
 
-          <ul class="list-unstyled">
+        <ul class="list-unstyled">
             <li>
-              <a href="#!">Link 1</a>
+                <a href="#!">Link 1</a>
             </li>
             <li>
-              <a href="#!">Link 2</a>
+                <a href="#!">Link 2</a>
             </li>
             <li>
-              <a href="#!">Link 3</a>
+                <a href="#!">Link 3</a>
             </li>
             <li>
-              <a href="#!">Link 4</a>
+                <a href="#!">Link 4</a>
             </li>
           </ul>
 
         </div>
 
       <hr class="clearfix w-100 d-md-none pb-3">
-
-      <!-- Grid column -->
       <div class="col-sm">
-
-        <!-- Links -->
         <h5 class="text-uppercase">Download Apps</h5>
-
         <ul class="list-unstyled">
           <li>
             <a href="#!">Link 1</a>
@@ -390,10 +391,11 @@
     </div>
 
   </div>
-
-
 </footer>
 <!-- Footer -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
